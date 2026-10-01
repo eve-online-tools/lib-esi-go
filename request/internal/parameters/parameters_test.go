@@ -173,7 +173,7 @@ func TestExtract(t *testing.T) {
 				type input struct {
 					H bool `header:"X-H"`
 				}
-				in := &input{H: false}
+				in := &input{H: true}
 				return parameters.Extract(in)
 			},
 			expectedErr: parameters.ErrInvalidValueType,
