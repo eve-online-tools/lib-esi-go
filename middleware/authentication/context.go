@@ -3,7 +3,7 @@ package authentication
 import (
 	"context"
 
-	"github.com/xaroth/lib-esi-go/request"
+	"github.com/eve-online-tools/lib-esi-go/request"
 )
 
 type requestTokenCtx struct{}

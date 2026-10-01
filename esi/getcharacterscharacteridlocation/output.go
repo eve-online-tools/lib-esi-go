@@ -3,9 +3,9 @@
 package getcharacterscharacteridlocation
 
 import (
-	"github.com/xaroth/lib-esi-go/common/item"
-	"github.com/xaroth/lib-esi-go/common/solarsystem"
-	"github.com/xaroth/lib-esi-go/common/station"
+	"github.com/eve-online-tools/lib-esi-go/common/item"
+	"github.com/eve-online-tools/lib-esi-go/common/solarsystem"
+	"github.com/eve-online-tools/lib-esi-go/common/station"
 )
 
 type Output struct {

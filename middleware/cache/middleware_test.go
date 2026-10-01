@@ -8,7 +8,7 @@ import (
 	// This enables the sqlite driver so we can use its in-memory store to test
 	_ "github.com/glebarez/go-sqlite"
 
-	"github.com/xaroth/lib-esi-go/middleware/cache"
+	"github.com/eve-online-tools/lib-esi-go/middleware/cache"
 )
 
 func TestMiddleware(t *testing.T) {

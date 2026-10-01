@@ -3,7 +3,7 @@
 package getparagonhubskinralliances
 
 import (
-	"github.com/xaroth/lib-esi-go/common/alliance"
+	"github.com/eve-online-tools/lib-esi-go/common/alliance"
 )
 
 type Input struct {

@@ -3,8 +3,8 @@
 package getcharactersfreelancejobsparticipation
 
 import (
-	"github.com/xaroth/lib-esi-go/common/character"
-	"github.com/xaroth/lib-esi-go/common/uuid"
+	"github.com/eve-online-tools/lib-esi-go/common/character"
+	"github.com/eve-online-tools/lib-esi-go/common/uuid"
 )
 
 type Input struct {

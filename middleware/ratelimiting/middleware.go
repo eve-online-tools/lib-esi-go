@@ -3,8 +3,8 @@ package ratelimiting
 import (
 	"net/http"
 
-	"github.com/xaroth/lib-esi-go/middleware"
-	"github.com/xaroth/lib-esi-go/request"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/request"
 )
 
 // Middleware automatically delays requests to ensure rate limits are respected.

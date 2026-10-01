@@ -9,7 +9,7 @@ import (
 
 	_ "github.com/glebarez/go-sqlite"
 
-	"github.com/xaroth/lib-esi-go/middleware/cache"
+	"github.com/eve-online-tools/lib-esi-go/middleware/cache"
 )
 
 func TestDSN(t *testing.T) {

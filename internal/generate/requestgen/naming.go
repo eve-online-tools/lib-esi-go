@@ -3,7 +3,7 @@ package requestgen
 import (
 	"strings"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/commonmodels"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/commonmodels"
 )
 
 // PackageNameFromOperationID returns the Go package name (lowercase operationId).

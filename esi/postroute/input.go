@@ -3,7 +3,7 @@
 package postroute
 
 import (
-	"github.com/xaroth/lib-esi-go/common/solarsystem"
+	"github.com/eve-online-tools/lib-esi-go/common/solarsystem"
 )
 
 type Input struct {

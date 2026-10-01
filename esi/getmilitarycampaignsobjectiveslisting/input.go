@@ -3,7 +3,7 @@
 package getmilitarycampaignsobjectiveslisting
 
 import (
-	"github.com/xaroth/lib-esi-go/common/uuid"
+	"github.com/eve-online-tools/lib-esi-go/common/uuid"
 )
 
 type Input struct {

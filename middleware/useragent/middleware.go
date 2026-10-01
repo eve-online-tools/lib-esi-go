@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/middleware"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
 )
 
 // Middleware adds a User-Agent header to each request.

@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/xaroth/lib-esi-go/request/internal/pattern"
+	"github.com/eve-online-tools/lib-esi-go/request/internal/pattern"
 )
 
 type testStringer string

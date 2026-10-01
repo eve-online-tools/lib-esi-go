@@ -3,7 +3,7 @@ package language
 import (
 	"net/http"
 
-	"github.com/xaroth/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
 )
 
 // Middleware adds an Accept-Language header to each request when configured.

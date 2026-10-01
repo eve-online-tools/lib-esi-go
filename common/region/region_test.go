@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/common/region"
+	"github.com/eve-online-tools/lib-esi-go/common/region"
 )
 
 func TestIdentifier_JSONRoundTrip_0(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/middleware/cache"
+	"github.com/eve-online-tools/lib-esi-go/middleware/cache"
 )
 
 func TestZstdRoundTrip(t *testing.T) {

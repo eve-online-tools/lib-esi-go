@@ -3,7 +3,7 @@ package openapi_test
 import (
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
 )
 
 func TestValidateCompatibilityDate(t *testing.T) {

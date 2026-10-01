@@ -3,8 +3,8 @@ package tier
 import (
 	"net/http"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/middleware"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
 )
 
 func Middleware(tier string) middleware.Middleware {

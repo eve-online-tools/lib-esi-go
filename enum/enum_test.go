@@ -3,7 +3,7 @@ package enum_test
 import (
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/enum"
+	"github.com/eve-online-tools/lib-esi-go/enum"
 )
 
 type TestType string

@@ -3,7 +3,7 @@
 package getcorporationscorporationidindustryjobs
 
 import (
-	"github.com/xaroth/lib-esi-go/common/corporation"
+	"github.com/eve-online-tools/lib-esi-go/common/corporation"
 )
 
 type Input struct {

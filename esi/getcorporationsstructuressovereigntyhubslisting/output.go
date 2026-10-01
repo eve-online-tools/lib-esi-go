@@ -3,8 +3,8 @@
 package getcorporationsstructuressovereigntyhubslisting
 
 import (
-	"github.com/xaroth/lib-esi-go/common/item"
-	"github.com/xaroth/lib-esi-go/common/solarsystem"
+	"github.com/eve-online-tools/lib-esi-go/common/item"
+	"github.com/eve-online-tools/lib-esi-go/common/solarsystem"
 )
 
 type Output struct {

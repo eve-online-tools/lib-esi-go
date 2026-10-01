@@ -5,7 +5,7 @@ package getcorporationsfreelancejobslisting
 import (
 	"time"
 
-	"github.com/xaroth/lib-esi-go/common/uuid"
+	"github.com/eve-online-tools/lib-esi-go/common/uuid"
 )
 
 type Output struct {

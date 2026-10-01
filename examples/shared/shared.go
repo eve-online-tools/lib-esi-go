@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"os"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/request"
-	"github.com/xaroth/lib-esi-go/transport"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/request"
+	"github.com/eve-online-tools/lib-esi-go/transport"
 )
 
 var Client = &http.Client{

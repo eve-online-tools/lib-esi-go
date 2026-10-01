@@ -3,8 +3,8 @@
 package getcharactersstructuresmercenarydensdetail
 
 import (
-	"github.com/xaroth/lib-esi-go/common/character"
-	"github.com/xaroth/lib-esi-go/common/item"
+	"github.com/eve-online-tools/lib-esi-go/common/character"
+	"github.com/eve-online-tools/lib-esi-go/common/item"
 )
 
 type Input struct {

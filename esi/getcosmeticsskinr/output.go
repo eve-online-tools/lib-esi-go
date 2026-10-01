@@ -3,8 +3,8 @@
 package getcosmeticsskinr
 
 import (
-	"github.com/xaroth/lib-esi-go/common/character"
-	"github.com/xaroth/lib-esi-go/common/typeid"
+	"github.com/eve-online-tools/lib-esi-go/common/character"
+	"github.com/eve-online-tools/lib-esi-go/common/typeid"
 )
 
 type Output struct {

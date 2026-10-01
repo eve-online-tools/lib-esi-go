@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
 )
 
 func TestModulePath(t *testing.T) {
@@ -13,7 +13,7 @@ func TestModulePath(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if path != "github.com/xaroth/lib-esi-go" {
+	if path != "github.com/eve-online-tools/lib-esi-go" {
 		t.Errorf("got %q", path)
 	}
 }

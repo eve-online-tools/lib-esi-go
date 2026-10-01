@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/commonmodels"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/commonmodels"
 )
 
 func TestParsedTemplates(t *testing.T) {

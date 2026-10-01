@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
 )
 
 // BuildPackage constructs a PackageModel from an operation.

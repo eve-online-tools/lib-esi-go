@@ -5,13 +5,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/commonmodels"
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/commonmodels"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
 )
 
 // Config controls import paths for generated code.
 type Config struct {
-	LibModule    string // e.g. github.com/xaroth/lib-esi-go
+	LibModule    string // e.g. github.com/eve-online-tools/lib-esi-go
 	CommonSuffix string // e.g. common
 }
 

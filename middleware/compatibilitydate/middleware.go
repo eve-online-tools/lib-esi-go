@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/xaroth/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
 )
 
 // Middleware adds a X-Compatibility-Date header to each request when configured.

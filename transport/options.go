@@ -3,7 +3,7 @@ package transport
 import (
 	"net/http"
 
-	"github.com/xaroth/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
 )
 
 type Option func(*transportChain)

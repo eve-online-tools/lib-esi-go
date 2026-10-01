@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	defaults "github.com/xaroth/lib-esi-go"
+	defaults "github.com/eve-online-tools/lib-esi-go"
 )
 
 func TestCompatDateFromArgs_library(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/middleware"
-	"github.com/xaroth/lib-esi-go/middleware/useragent"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/middleware/useragent"
 )
 
 func TestMiddleware(t *testing.T) {

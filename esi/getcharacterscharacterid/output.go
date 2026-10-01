@@ -5,11 +5,11 @@ package getcharacterscharacterid
 import (
 	"time"
 
-	"github.com/xaroth/lib-esi-go/common/alliance"
-	"github.com/xaroth/lib-esi-go/common/bloodline"
-	"github.com/xaroth/lib-esi-go/common/corporation"
-	"github.com/xaroth/lib-esi-go/common/faction"
-	"github.com/xaroth/lib-esi-go/common/race"
+	"github.com/eve-online-tools/lib-esi-go/common/alliance"
+	"github.com/eve-online-tools/lib-esi-go/common/bloodline"
+	"github.com/eve-online-tools/lib-esi-go/common/corporation"
+	"github.com/eve-online-tools/lib-esi-go/common/faction"
+	"github.com/eve-online-tools/lib-esi-go/common/race"
 )
 
 type Output struct {

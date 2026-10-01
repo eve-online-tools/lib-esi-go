@@ -3,7 +3,7 @@ package tenant
 import (
 	"net/http"
 
-	"github.com/xaroth/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
 )
 
 // Middleware adds an X-Tenant header to each request when configured.

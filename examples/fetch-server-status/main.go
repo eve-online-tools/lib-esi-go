@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/xaroth/lib-esi-go/examples/shared"
-	"github.com/xaroth/lib-esi-go/request"
+	"github.com/eve-online-tools/lib-esi-go/examples/shared"
+	"github.com/eve-online-tools/lib-esi-go/request"
 )
 
 type Output struct {

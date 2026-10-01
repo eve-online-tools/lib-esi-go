@@ -10,7 +10,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/xaroth/lib-esi-go/request/internal/parameters"
+	"github.com/eve-online-tools/lib-esi-go/request/internal/parameters"
 )
 
 type queryStringer string

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
 )
 
 func TestSchemaType_UnmarshalJSON_string(t *testing.T) {

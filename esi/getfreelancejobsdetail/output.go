@@ -5,10 +5,10 @@ package getfreelancejobsdetail
 import (
 	"time"
 
-	"github.com/xaroth/lib-esi-go/common/character"
-	"github.com/xaroth/lib-esi-go/common/corporation"
-	"github.com/xaroth/lib-esi-go/common/solarsystem"
-	"github.com/xaroth/lib-esi-go/common/uuid"
+	"github.com/eve-online-tools/lib-esi-go/common/character"
+	"github.com/eve-online-tools/lib-esi-go/common/corporation"
+	"github.com/eve-online-tools/lib-esi-go/common/solarsystem"
+	"github.com/eve-online-tools/lib-esi-go/common/uuid"
 )
 
 type Output struct {

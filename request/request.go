@@ -10,10 +10,10 @@ import (
 	"sort"
 	"strings"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/request/esierror"
-	"github.com/xaroth/lib-esi-go/request/internal/parameters"
-	"github.com/xaroth/lib-esi-go/request/internal/pattern"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/request/esierror"
+	"github.com/eve-online-tools/lib-esi-go/request/internal/parameters"
+	"github.com/eve-online-tools/lib-esi-go/request/internal/pattern"
 )
 
 type RequestSender interface {

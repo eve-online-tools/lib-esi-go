@@ -5,7 +5,7 @@ package getcharacterscharacteridskillqueue
 import (
 	"time"
 
-	"github.com/xaroth/lib-esi-go/common/typeid"
+	"github.com/eve-online-tools/lib-esi-go/common/typeid"
 )
 
 type Output struct {

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/cmdutil"
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
-	"github.com/xaroth/lib-esi-go/internal/generate/requestgen"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/cmdutil"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/requestgen"
 )
 
 func main() {
@@ -17,7 +17,7 @@ func main() {
 
 func run() int {
 	specFlags := cmdutil.RegisterSpecFlags(flag.CommandLine, openapi.DefaultSpecURL, ".")
-	flagLib := flag.String("lib", "github.com/xaroth/lib-esi-go", "module path for request and common model imports")
+	flagLib := flag.String("lib", "github.com/eve-online-tools/lib-esi-go", "module path for request and common model imports")
 	flagCommon := flag.String("common", "common", "path suffix after -lib for common model imports")
 	flag.Parse()
 

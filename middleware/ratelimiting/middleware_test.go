@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/middleware"
-	"github.com/xaroth/lib-esi-go/middleware/ratelimiting"
-	"github.com/xaroth/lib-esi-go/request"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/middleware/ratelimiting"
+	"github.com/eve-online-tools/lib-esi-go/request"
 )
 
 type fakeRateLimiter struct {
