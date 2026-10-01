@@ -3,7 +3,7 @@
 package getcharacterscharacteridfittings
 
 import (
-	"github.com/xaroth/lib-esi-go/common/character"
+	"github.com/eve-online-tools/lib-esi-go/common/character"
 )
 
 type Input struct {

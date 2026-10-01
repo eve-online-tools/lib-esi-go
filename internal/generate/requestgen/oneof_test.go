@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/gentest"
-	"github.com/xaroth/lib-esi-go/internal/generate/requestgen"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/gentest"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/requestgen"
 )
 
 func TestGeneratePackage_oneOf(t *testing.T) {
@@ -14,7 +14,7 @@ func TestGeneratePackage_oneOf(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	cfg := requestgen.Config{LibModule: "github.com/xaroth/lib-esi-go", CommonSuffix: "common"}
+	cfg := requestgen.Config{LibModule: "github.com/eve-online-tools/lib-esi-go", CommonSuffix: "common"}
 	pkg, err := requestgen.BuildPackage(ops[0], spec, cfg)
 	if err != nil {
 		t.Fatal(err)

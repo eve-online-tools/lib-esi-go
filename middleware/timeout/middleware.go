@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/xaroth/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
 )
 
 // Middleware sets a timeout for the request when configured.

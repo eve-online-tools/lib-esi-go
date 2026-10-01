@@ -3,10 +3,10 @@
 package getcharactersaccesslistsdetail
 
 import (
-	"github.com/xaroth/lib-esi-go/common/accesslist"
-	"github.com/xaroth/lib-esi-go/common/alliance"
-	"github.com/xaroth/lib-esi-go/common/character"
-	"github.com/xaroth/lib-esi-go/common/corporation"
+	"github.com/eve-online-tools/lib-esi-go/common/accesslist"
+	"github.com/eve-online-tools/lib-esi-go/common/alliance"
+	"github.com/eve-online-tools/lib-esi-go/common/character"
+	"github.com/eve-online-tools/lib-esi-go/common/corporation"
 )
 
 type Output struct {

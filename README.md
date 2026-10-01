@@ -16,9 +16,9 @@ import (
 	"fmt"
 	"net/http"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/esi/getmetastatus"
-	"github.com/xaroth/lib-esi-go/transport"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/esi/getmetastatus"
+	"github.com/eve-online-tools/lib-esi-go/transport"
 )
 
 func main() {
@@ -88,11 +88,11 @@ import (
 	"fmt"
 	"net/http"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/common/character"
-	"github.com/xaroth/lib-esi-go/esi/getcharacterscharacteridlocation"
-	"github.com/xaroth/lib-esi-go/middleware/authentication"
-	"github.com/xaroth/lib-esi-go/transport"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/common/character"
+	"github.com/eve-online-tools/lib-esi-go/esi/getcharacterscharacteridlocation"
+	"github.com/eve-online-tools/lib-esi-go/middleware/authentication"
+	"github.com/eve-online-tools/lib-esi-go/transport"
 )
 
 type staticToken struct {
@@ -249,9 +249,9 @@ import (
 
 	_ "github.com/glebarez/go-sqlite"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/middleware/cache"
-	"github.com/xaroth/lib-esi-go/transport"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/middleware/cache"
+	"github.com/eve-online-tools/lib-esi-go/transport"
 )
 
 func newCachedClient() *http.Client {
@@ -279,10 +279,10 @@ package main
 import (
 	"net/http"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/middleware/ratelimiting"
-	"github.com/xaroth/lib-esi-go/middleware/ratelimiting/memory"
-	"github.com/xaroth/lib-esi-go/transport"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/middleware/ratelimiting"
+	"github.com/eve-online-tools/lib-esi-go/middleware/ratelimiting/memory"
+	"github.com/eve-online-tools/lib-esi-go/transport"
 )
 
 func newRateLimitedClient() *http.Client {
@@ -317,7 +317,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/xaroth/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
 )
 
 func loggingMiddleware(next http.RoundTripper) http.RoundTripper {

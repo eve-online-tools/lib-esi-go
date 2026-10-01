@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/commonmodels"
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/commonmodels"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
 )
 
 func oneOfVariants(schema openapi.Schema, ref openapi.SchemaRef) []openapi.SchemaRef {

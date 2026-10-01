@@ -5,10 +5,10 @@ package getcorporationsstructuressovereigntyhubsdetail
 import (
 	"time"
 
-	"github.com/xaroth/lib-esi-go/common/accesslist"
-	"github.com/xaroth/lib-esi-go/common/item"
-	"github.com/xaroth/lib-esi-go/common/solarsystem"
-	"github.com/xaroth/lib-esi-go/common/typeid"
+	"github.com/eve-online-tools/lib-esi-go/common/accesslist"
+	"github.com/eve-online-tools/lib-esi-go/common/item"
+	"github.com/eve-online-tools/lib-esi-go/common/solarsystem"
+	"github.com/eve-online-tools/lib-esi-go/common/typeid"
 )
 
 type Output struct {

@@ -1,4 +1,4 @@
-module github.com/xaroth/lib-esi-go
+module github.com/eve-online-tools/lib-esi-go
 
 go 1.25.2
 

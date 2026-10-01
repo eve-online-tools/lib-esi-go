@@ -3,8 +3,8 @@ package requestgen
 import (
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/gentest"
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/gentest"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
 )
 
 func TestMapSchema_untypedJSON(t *testing.T) {

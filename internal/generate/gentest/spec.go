@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
 )
 
 // MinimalSpecPath returns the path to the shared minimal OpenAPI fixture.

@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/eve-online-tools/lib-esi-go/request/esierror"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xaroth/lib-esi-go/request/esierror"
 )
 
 func TestErrorData(t *testing.T) {

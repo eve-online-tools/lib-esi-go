@@ -3,8 +3,8 @@ package commonmodels
 import (
 	"path/filepath"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
-	"github.com/xaroth/lib-esi-go/internal/generate/writefile"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/writefile"
 )
 
 // WritePackages writes generated files under outDir.

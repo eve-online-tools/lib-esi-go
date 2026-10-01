@@ -5,7 +5,7 @@ package getmetachangelog
 import (
 	"net/http"
 
-	"github.com/xaroth/lib-esi-go/request"
+	"github.com/eve-online-tools/lib-esi-go/request"
 )
 
 var Request = request.CreateStatic[*Output](

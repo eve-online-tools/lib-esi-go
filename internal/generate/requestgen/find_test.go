@@ -3,8 +3,8 @@ package requestgen_test
 import (
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/gentest"
-	"github.com/xaroth/lib-esi-go/internal/generate/requestgen"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/gentest"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/requestgen"
 )
 
 func TestFindOperations_byOperationID(t *testing.T) {

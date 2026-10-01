@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eve-online-tools/lib-esi-go/middleware/ratelimiting"
+	"github.com/eve-online-tools/lib-esi-go/middleware/ratelimiting/memory"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xaroth/lib-esi-go/middleware/ratelimiting"
-	"github.com/xaroth/lib-esi-go/middleware/ratelimiting/memory"
 )
 
 func TestNewGroup(t *testing.T) {

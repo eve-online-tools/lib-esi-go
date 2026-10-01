@@ -3,8 +3,8 @@ package commonmodels_test
 import (
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/commonmodels"
-	"github.com/xaroth/lib-esi-go/internal/generate/gentest"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/commonmodels"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/gentest"
 )
 
 func TestModelsFromSpec(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/middleware"
-	"github.com/xaroth/lib-esi-go/middleware/compatibilitydate"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/middleware/compatibilitydate"
 )
 
 func TestMiddleware(t *testing.T) {

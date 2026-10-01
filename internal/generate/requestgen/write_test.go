@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/gentest"
-	"github.com/xaroth/lib-esi-go/internal/generate/requestgen"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/gentest"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/requestgen"
 )
 
 func TestWritePackages(t *testing.T) {
@@ -16,7 +16,7 @@ func TestWritePackages(t *testing.T) {
 		t.Fatal(err)
 	}
 	dir := t.TempDir()
-	cfg := requestgen.Config{LibModule: "github.com/xaroth/lib-esi-go", CommonSuffix: "common"}
+	cfg := requestgen.Config{LibModule: "github.com/eve-online-tools/lib-esi-go", CommonSuffix: "common"}
 	pkg, err := requestgen.BuildPackage(ops[0], spec, cfg)
 	if err != nil {
 		t.Fatal(err)
@@ -40,7 +40,7 @@ func TestWritePackages_check(t *testing.T) {
 		t.Fatal(err)
 	}
 	dir := t.TempDir()
-	cfg := requestgen.Config{LibModule: "github.com/xaroth/lib-esi-go", CommonSuffix: "common"}
+	cfg := requestgen.Config{LibModule: "github.com/eve-online-tools/lib-esi-go", CommonSuffix: "common"}
 	if _, err := requestgen.BuildAndWrite(spec, ops, dir, cfg, false); err != nil {
 		t.Fatal(err)
 	}

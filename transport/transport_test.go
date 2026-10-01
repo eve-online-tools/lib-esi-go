@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/transport"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/transport"
 )
 
 func TestNew_setsDefaultHeaders(t *testing.T) {

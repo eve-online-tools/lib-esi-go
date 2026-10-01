@@ -3,9 +3,9 @@ package requestgen_test
 import (
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/gentest"
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
-	"github.com/xaroth/lib-esi-go/internal/generate/requestgen"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/gentest"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/requestgen"
 )
 
 func TestTypeMapper_commonModel(t *testing.T) {
@@ -25,7 +25,7 @@ func TestTypeMapper_commonModel(t *testing.T) {
 
 func TestTypeMapper_optionalPointer(t *testing.T) {
 	spec := gentest.LoadMinimalSpec(t)
-	mapper := requestgen.NewTypeMapper(requestgen.Config{LibModule: "github.com/xaroth/lib-esi-go", CommonSuffix: "common"}, spec)
+	mapper := requestgen.NewTypeMapper(requestgen.Config{LibModule: "github.com/eve-online-tools/lib-esi-go", CommonSuffix: "common"}, spec)
 	gt, _, err := mapper.MapSchemaRef(openapi.SchemaRef{Ref: "#/components/schemas/FactionID"}, false)
 	if err != nil {
 		t.Fatal(err)

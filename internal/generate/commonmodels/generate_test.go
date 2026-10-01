@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/commonmodels"
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/commonmodels"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
 )
 
 func TestGeneratePackage_int64ID(t *testing.T) {
@@ -19,7 +19,7 @@ func TestGeneratePackage_int64ID(t *testing.T) {
 		},
 		Examples: []any{float64(99000001)},
 	}
-	mainGo, testGo, err := commonmodels.GeneratePackage(m, "github.com/xaroth/lib-esi-go", "common")
+	mainGo, testGo, err := commonmodels.GeneratePackage(m, "github.com/eve-online-tools/lib-esi-go", "common")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -42,7 +42,7 @@ func TestGeneratePackage_int64ID(t *testing.T) {
 	if !strings.Contains(string(testGo), "alliance.Identifier") {
 		t.Errorf("test should qualify types: %s", testGo)
 	}
-	if !strings.Contains(string(testGo), "github.com/xaroth/lib-esi-go/common/alliance") {
+	if !strings.Contains(string(testGo), "github.com/eve-online-tools/lib-esi-go/common/alliance") {
 		t.Errorf("test should import module path: %s", testGo)
 	}
 }
@@ -58,7 +58,7 @@ func TestGeneratePackage_uuid(t *testing.T) {
 		},
 		Examples: []any{"3868eaed-8278-4cb7-9709-7d7de9c20dc7"},
 	}
-	mainGo, _, err := commonmodels.GeneratePackage(m, "github.com/xaroth/lib-esi-go", "common")
+	mainGo, _, err := commonmodels.GeneratePackage(m, "github.com/eve-online-tools/lib-esi-go", "common")
 	if err != nil {
 		t.Fatal(err)
 	}

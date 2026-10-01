@@ -5,10 +5,10 @@ package getcorporationscorporationid
 import (
 	"time"
 
-	"github.com/xaroth/lib-esi-go/common/alliance"
-	"github.com/xaroth/lib-esi-go/common/character"
-	"github.com/xaroth/lib-esi-go/common/faction"
-	"github.com/xaroth/lib-esi-go/common/station"
+	"github.com/eve-online-tools/lib-esi-go/common/alliance"
+	"github.com/eve-online-tools/lib-esi-go/common/character"
+	"github.com/eve-online-tools/lib-esi-go/common/faction"
+	"github.com/eve-online-tools/lib-esi-go/common/station"
 )
 
 type Output struct {

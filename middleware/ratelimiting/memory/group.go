@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xaroth/lib-esi-go/middleware/ratelimiting"
+	"github.com/eve-online-tools/lib-esi-go/middleware/ratelimiting"
 )
 
 type Group struct {

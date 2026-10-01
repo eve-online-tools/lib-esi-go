@@ -3,8 +3,8 @@
 package getcorporationsstructuressovereigntyhubsdetail
 
 import (
-	"github.com/xaroth/lib-esi-go/common/corporation"
-	"github.com/xaroth/lib-esi-go/common/item"
+	"github.com/eve-online-tools/lib-esi-go/common/corporation"
+	"github.com/eve-online-tools/lib-esi-go/common/item"
 )
 
 type Input struct {

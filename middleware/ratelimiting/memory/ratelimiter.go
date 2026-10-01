@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xaroth/lib-esi-go/middleware/ratelimiting"
-	"github.com/xaroth/lib-esi-go/middleware/ratelimiting/internal/bucket"
-	"github.com/xaroth/lib-esi-go/request"
+	"github.com/eve-online-tools/lib-esi-go/middleware/ratelimiting"
+	"github.com/eve-online-tools/lib-esi-go/middleware/ratelimiting/internal/bucket"
+	"github.com/eve-online-tools/lib-esi-go/request"
 )
 
 var (

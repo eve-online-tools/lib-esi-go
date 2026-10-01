@@ -9,10 +9,10 @@ import (
 	"os"
 	"time"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/middleware/compatibilitydate"
-	"github.com/xaroth/lib-esi-go/middleware/useragent"
-	"github.com/xaroth/lib-esi-go/transport"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/middleware/compatibilitydate"
+	"github.com/eve-online-tools/lib-esi-go/middleware/useragent"
+	"github.com/eve-online-tools/lib-esi-go/transport"
 )
 
 // LoadSpec loads the OpenAPI spec from inputPath or by fetching url with X-Compatibility-Date.

@@ -8,12 +8,12 @@ import (
 
 	_ "github.com/glebarez/go-sqlite"
 
-	defaults "github.com/xaroth/lib-esi-go"
-	"github.com/xaroth/lib-esi-go/examples/shared"
-	"github.com/xaroth/lib-esi-go/middleware"
-	"github.com/xaroth/lib-esi-go/middleware/cache"
-	"github.com/xaroth/lib-esi-go/request"
-	"github.com/xaroth/lib-esi-go/transport"
+	defaults "github.com/eve-online-tools/lib-esi-go"
+	"github.com/eve-online-tools/lib-esi-go/examples/shared"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/middleware/cache"
+	"github.com/eve-online-tools/lib-esi-go/request"
+	"github.com/eve-online-tools/lib-esi-go/transport"
 )
 
 type Output struct {

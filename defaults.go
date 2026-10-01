@@ -15,7 +15,7 @@ const (
 	Tier = "live"
 )
 
-var UserAgent = fmt.Sprintf("lib-esi-go/%s (+https://github.com/xaroth/lib-esi-go)", CompatibilityDate)
+var UserAgent = fmt.Sprintf("lib-esi-go/%s (+https://github.com/eve-online-tools/lib-esi-go)", CompatibilityDate)
 
 var (
 	TieredHosts = map[string]*url.URL{

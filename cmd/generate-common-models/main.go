@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/xaroth/lib-esi-go/internal/generate/cmdutil"
-	"github.com/xaroth/lib-esi-go/internal/generate/commonmodels"
-	"github.com/xaroth/lib-esi-go/internal/generate/openapi"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/cmdutil"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/commonmodels"
+	"github.com/eve-online-tools/lib-esi-go/internal/generate/openapi"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/xaroth/lib-esi-go/request"
+	"github.com/eve-online-tools/lib-esi-go/request"
 )
 
 type requestTimeoutCtx struct{}

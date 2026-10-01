@@ -5,9 +5,9 @@ package getalliancesallianceid
 import (
 	"time"
 
-	"github.com/xaroth/lib-esi-go/common/character"
-	"github.com/xaroth/lib-esi-go/common/corporation"
-	"github.com/xaroth/lib-esi-go/common/faction"
+	"github.com/eve-online-tools/lib-esi-go/common/character"
+	"github.com/eve-online-tools/lib-esi-go/common/corporation"
+	"github.com/eve-online-tools/lib-esi-go/common/faction"
 )
 
 type Output struct {

@@ -3,8 +3,8 @@
 package getcharacterscharacteridship
 
 import (
-	"github.com/xaroth/lib-esi-go/common/item"
-	"github.com/xaroth/lib-esi-go/common/typeid"
+	"github.com/eve-online-tools/lib-esi-go/common/item"
+	"github.com/eve-online-tools/lib-esi-go/common/typeid"
 )
 
 type Output struct {

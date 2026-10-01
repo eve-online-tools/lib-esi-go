@@ -3,8 +3,8 @@
 package getcharactersstructuresmercenarydenslisting
 
 import (
-	"github.com/xaroth/lib-esi-go/common/item"
-	"github.com/xaroth/lib-esi-go/common/planet"
+	"github.com/eve-online-tools/lib-esi-go/common/item"
+	"github.com/eve-online-tools/lib-esi-go/common/planet"
 )
 
 type Output struct {

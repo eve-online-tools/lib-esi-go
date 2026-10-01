@@ -3,8 +3,8 @@ package bucket
 import (
 	"net/http"
 
-	"github.com/xaroth/lib-esi-go/middleware/authentication"
-	"github.com/xaroth/lib-esi-go/request"
+	"github.com/eve-online-tools/lib-esi-go/middleware/authentication"
+	"github.com/eve-online-tools/lib-esi-go/request"
 )
 
 func GetRequestBucket(req *http.Request) int64 {

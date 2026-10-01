@@ -5,14 +5,14 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/xaroth/lib-esi-go/middleware"
-	"github.com/xaroth/lib-esi-go/middleware/authentication"
-	"github.com/xaroth/lib-esi-go/middleware/authentication/mock"
-	"github.com/xaroth/lib-esi-go/request"
+	"github.com/eve-online-tools/lib-esi-go/middleware"
+	"github.com/eve-online-tools/lib-esi-go/middleware/authentication"
+	"github.com/eve-online-tools/lib-esi-go/middleware/authentication/mock"
+	"github.com/eve-online-tools/lib-esi-go/request"
 	"go.uber.org/mock/gomock"
 )
 
-//go:generate go run -mod=mod go.uber.org/mock/mockgen -build_flags=--mod=mod -destination=mock/mock_token.go -package=mock github.com/xaroth/lib-esi-go/middleware/authentication Token,RefreshableToken,ScopedToken
+//go:generate go run -mod=mod go.uber.org/mock/mockgen -build_flags=--mod=mod -destination=mock/mock_token.go -package=mock github.com/eve-online-tools/lib-esi-go/middleware/authentication Token,RefreshableToken,ScopedToken
 
 func TestMiddleware(t *testing.T) {
 	t.Parallel()

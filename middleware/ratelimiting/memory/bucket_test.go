@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/xaroth/lib-esi-go/middleware/ratelimiting/memory"
+	"github.com/eve-online-tools/lib-esi-go/middleware/ratelimiting/memory"
 )
 
 func TestEffectiveTokens(t *testing.T) {

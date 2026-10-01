@@ -5,10 +5,10 @@ package getcharactersparagonhubskinr
 import (
 	"time"
 
-	"github.com/xaroth/lib-esi-go/common/alliance"
-	"github.com/xaroth/lib-esi-go/common/character"
-	"github.com/xaroth/lib-esi-go/common/corporation"
-	"github.com/xaroth/lib-esi-go/common/uuid"
+	"github.com/eve-online-tools/lib-esi-go/common/alliance"
+	"github.com/eve-online-tools/lib-esi-go/common/character"
+	"github.com/eve-online-tools/lib-esi-go/common/corporation"
+	"github.com/eve-online-tools/lib-esi-go/common/uuid"
 )
 
 type Output struct {

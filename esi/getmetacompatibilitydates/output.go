@@ -3,7 +3,7 @@
 package getmetacompatibilitydates
 
 import (
-	"github.com/xaroth/lib-esi-go/common/compatibilitydate"
+	"github.com/eve-online-tools/lib-esi-go/common/compatibilitydate"
 )
 
 type Output struct {
