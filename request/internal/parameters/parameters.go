@@ -55,16 +55,11 @@ func Extract[TInput any](input *TInput) (map[string]any, url.Values, http.Header
 		fieldValue := reflect.ValueOf(input).Elem().Field(i)
 		value := fieldValue.Interface()
 
-		hasValue := fieldValue.IsValid()
+		// IsZero also reports true for nil pointers, slices, maps and interfaces.
 		isZero := fieldValue.IsZero()
 
-		isNil := !hasValue
-		if !hasValue {
-			isNil = fieldValue.IsNil()
-		}
-
 		if tag, ok := field.Tag.Lookup("path"); ok {
-			if isZero || isNil {
+			if isZero {
 				// Path parameters are always required.
 				return nil, nil, nil, nil, ErrRequiredValue
 			}
@@ -73,7 +68,7 @@ func Extract[TInput any](input *TInput) (map[string]any, url.Values, http.Header
 
 		// For all non-path parameters, if the value is nil, and the field is required
 		// error early.
-		if isZero || isNil {
+		if isZero {
 			if tag, ok := field.Tag.Lookup("required"); ok && tag == "true" {
 				return nil, nil, nil, nil, ErrRequiredValue
 			}
