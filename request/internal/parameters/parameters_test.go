@@ -226,6 +226,30 @@ func TestExtract(t *testing.T) {
 			},
 			expectedErr: parameters.ErrRequiredValue,
 		},
+		{
+			name: "nil pointer required parameter",
+			invoke: func() (map[string]any, url.Values, http.Header, io.Reader, error) {
+				type input struct {
+					Body *jsonBody `body:"json" required:"true"`
+				}
+				in := &input{}
+				return parameters.Extract(in)
+			},
+			expectedErr: parameters.ErrRequiredValue,
+		},
+		{
+			name: "nil pointer optional parameter is skipped",
+			invoke: func() (map[string]any, url.Values, http.Header, io.Reader, error) {
+				type input struct {
+					Body *jsonBody `body:"json"`
+				}
+				in := &input{}
+				return parameters.Extract(in)
+			},
+			expectedPath:   map[string]any{},
+			expectedQuery:  url.Values{},
+			expectedHeader: http.Header{},
+		},
 	}
 
 	for _, tc := range testCases {
