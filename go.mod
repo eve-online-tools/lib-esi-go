@@ -6,7 +6,7 @@ require (
 	github.com/bartventer/httpcache v0.13.0
 	github.com/glebarez/go-sqlite v1.22.0
 	github.com/google/go-cmp v0.7.0
-	github.com/klauspost/compress v1.18.3
+	github.com/klauspost/compress v1.20.1
 	go.uber.org/mock v0.6.0
 )
 
