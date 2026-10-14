@@ -1,4 +1,4 @@
-# github.com/bartventer/httpcache v0.13.0
+# github.com/bartventer/httpcache v0.14.0
 ## explicit; go 1.25
 github.com/bartventer/httpcache
 github.com/bartventer/httpcache/internal

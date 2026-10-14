@@ -3,7 +3,7 @@ module github.com/eve-online-tools/lib-esi-go
 go 1.25.2
 
 require (
-	github.com/bartventer/httpcache v0.13.0
+	github.com/bartventer/httpcache v0.14.0
 	github.com/glebarez/go-sqlite v1.22.0
 	github.com/google/go-cmp v0.7.0
 	github.com/klauspost/compress v1.18.3
