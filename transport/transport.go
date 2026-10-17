@@ -37,7 +37,6 @@ func newTransportChain(base http.RoundTripper) *transportChain {
 	return &transportChain{
 		base:        base,
 		middlewares: make([]middleware.Middleware, 0),
-		chain:       base,
 
 		defaultTier:     defaults.Tier,
 		defaultTenant:   defaults.Tenant,
@@ -51,10 +50,11 @@ func (c *transportChain) assemble() {
 	// The last middleware in the chain is the first middleware to be called.
 	// This ensures that the default transport (which does the actual request) is the last middleware to be called,
 	// allowing all other middlewares to modify/inspect/abort the request.
+	// Built from base here so options like WithTransport can replace it first.
+	c.chain = c.base
 	for i := len(c.middlewares) - 1; i >= 0; i-- {
 		c.chain = c.middlewares[i](c.chain)
 	}
-
 }
 
 // New constructs a transport chain with the default middlewares.
