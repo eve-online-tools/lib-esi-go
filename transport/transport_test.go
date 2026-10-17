@@ -70,3 +70,34 @@ func TestNew_usesCompatibilityDateArgument(t *testing.T) {
 		t.Errorf("X-Compatibility-Date = %q, want %q", captured.Get("X-Compatibility-Date"), customDate)
 	}
 }
+
+type roundTripperFunc func(*http.Request) (*http.Response, error)
+
+func (f roundTripperFunc) RoundTrip(req *http.Request) (*http.Response, error) { return f(req) }
+
+func TestNew_withTransportUsesCustomBase(t *testing.T) {
+	var captured *http.Request
+	base := roundTripperFunc(func(req *http.Request) (*http.Response, error) {
+		captured = req
+		return &http.Response{StatusCode: http.StatusOK, Body: http.NoBody, Header: http.Header{}}, nil
+	})
+
+	rt := transport.New("TestApp", "1.0.0", nil, defaults.CompatibilityDate, transport.WithTransport(base))
+	req, err := http.NewRequest(http.MethodGet, "https://esi.invalid/status", nil)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	resp, err := rt.RoundTrip(req)
+	if err != nil {
+		t.Fatal(err)
+	}
+	resp.Body.Close()
+
+	if captured == nil {
+		t.Fatal("custom base transport was not called")
+	}
+	if captured.Header.Get("X-Compatibility-Date") != defaults.CompatibilityDate {
+		t.Errorf("X-Compatibility-Date = %q, want %q", captured.Header.Get("X-Compatibility-Date"), defaults.CompatibilityDate)
+	}
+}
